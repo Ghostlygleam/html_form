@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <!-- title and description -->
+        <title>Title</title>
+        <meta name="description" content="Description content.">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- styles -->
+        <link rel="stylesheet" href="./styles/style.css" type="text/css">
+        <!-- icons -->
+        <link rel="icon" href="favicon.png"> <!--32х32-->
+        <link rel="apple-touch-icon" href="./src/icons/touch-icon-iphone.png"> <!--60х60-->
+        <link rel="apple-touch-icon" sizes="76x76" href="./src/icons/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./src/icons/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./src/icons/touch-icon-ipad-retina.png">
+        <!-- open graph -->
+        <meta property="og:title" content="Open graph title" />
+        <!--
+        <meta property="og:type" content="./src/video/mp4" />
+        <meta property="og:video" content="https://site.com/video/example.mp4" />
+        -->
+        <!--
+        <meta property="og:type" content="./src/audio/mp3" />
+        <meta property="og:audio" content="https://site.com/audio/example.mp3" />
+        -->
+        <meta property="og:type" content="article" /> <!-- if not audio and not video -->
+        <meta property="og:url" content="https://website.com/" />
+        <meta property="og:image" content="./src/icons/og.png" /> <!-- OG image is 1200×630 pixels  -->
+        <meta property="og:site_name" content="website.com" /> <!-- not important -->
+        <meta property="og:description" content="Description content." /> <!-- not important -->
+        <meta property="og:locale" content="en_US" /> <!-- default: "en_US" -->
+    </head>
+    <body>
+        <form>
+        <!-- content -->
+            <label for="username">Введите имя</label>
+
+            <input id = "username" type="text"> <br> <br> 
+
+            <label for="userpassword">Введите пароль</label>
+
+            <input id = "userpassword" type="password"> <br> <br>
+
+            <label for="bdate">Введите пароль</label>
+
+            <input id = "bdate" type="date"> <br> <br>
+
+            <select size="3" multiple>
+                <option>Python</option>
+                <option selected>JavaScript</option>
+                <option>C++</option>
+                <option>C#</option>
+                <option>Scratch</option> 
+            </select> <br> <br>
+            <label for = "front">Frontend</label>
+            <input id = 'front' type="radio" name="favorite"> <br> <br>
+            <label for = "back">Backend</label>
+            <input id = 'back' type="radio" name="favorite"> <br> <br>
+            <label for = "full">Fullstack</label>
+            <input id = 'full' type="radio" name="favorite" checked> <br> <br>
+            
+            <label for="agree">Я согласен со всем что написано</label>
+            <input id = "agree" type="checkbox">  <br> <br>
+
+            <textarea cols="12" rows="4">Дополнительные сведения</textarea>  <br> <br>
+
+            <input type="button" value="отправить">  <br> <br>
+
+            <input type="reset" value="очистить"> <br> <br>
+
+        </form>
+
+
+
+
+
+    
+            
+            
+
+
+
+
+
+
+        <!-- scripts -->
+        <script src="./js/main.js"></script>
+    </body>
+</html>
